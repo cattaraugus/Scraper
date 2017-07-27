@@ -1,0 +1,26 @@
+{
+    "name": "cattaraugus/scraper",
+    "type": "application",
+    "description": "Extending the Goutte PHP Web Scraper",
+    "keywords": ["scraper"],
+    "homepage": "https://github.com/cattaraugus/Scraper-Client",
+    "license": "",
+    "authors": [
+        {
+            "name": "Jeremy Knab",
+            "email": "webmaster@cattco.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "fabpot/goutte": "~3.0"
+    },
+    "autoload": {
+        "psr-4": { "Scraper\\": "Scraper" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.2-dev"
+        }
+    }
+}
