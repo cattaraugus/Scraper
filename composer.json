@@ -3,7 +3,7 @@
     "type": "application",
     "description": "Extending the Goutte PHP Web Scraper",
     "keywords": ["scraper"],
-    "homepage": "https://github.com/cattaraugus/Scraper-Client",
+    "homepage": "https://github.com/cattaraugus/Scraper",
     "license": "",
     "authors": [
         {
