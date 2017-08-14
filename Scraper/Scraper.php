@@ -5,14 +5,14 @@
  * Jeremy Knab <jknab@greenskunk.com>
  *
  */
-namespace Cattaraugus;
+namespace Scraper;
 
 use Goutte\Client;
 use Symfony\Component\BrowserKit\Response;
 use Guzzle\Http\Message\Response as GuzzleResponse;
 
 // see https://stackoverflow.com/questions/21974796/access-guzzle-response-from-goutte
-class Scraper extends \Goutte\Client
+class Client extends \Goutte\Client
 {
   protected $guzzleResponse;
   protected function createResponse(GuzzleResponse $response)
