@@ -13,7 +13,7 @@ use Goutte\Client;
 class Scraper extends \Goutte\Client
 {
   protected $guzzleResponse;
-  protected function createResponse(ResponseInterface $response)
+  protected function createResponse(\Guzzle\Http\Message\Response $response)
   {
     // \Guzzle\Http\Message\Response $response
     $this->guzzleResponse = $response;
